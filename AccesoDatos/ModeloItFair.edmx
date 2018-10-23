@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="IT_FairModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Antonimo">
+          <Key>
+            <PropertyRef Name="ID_Antonimo" />
+          </Key>
+          <Property Name="ID_Antonimo" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Descripcion" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ejemplo">
+          <Key>
+            <PropertyRef Name="ID_Ejemplo" />
+          </Key>
+          <Property Name="ID_Ejemplo" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Descripcion" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Palabra">
+          <Key>
+            <PropertyRef Name="ID_Palabra" />
+          </Key>
+          <Property Name="ID_Palabra" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Descripcion" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Traduccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ID_TipoPalabra" Type="nchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Sinonimo">
+          <Key>
+            <PropertyRef Name="ID_Sinonimo" />
+          </Key>
+          <Property Name="ID_Sinonimo" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Descripcion" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TipoPalabra">
+          <Key>
+            <PropertyRef Name="ID_TipoPalabra" />
+          </Key>
+          <Property Name="ID_TipoPalabra" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Descripcion" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_TipoPalabra">
+          <End Role="TipoPalabra" Type="Self.TipoPalabra" Multiplicity="1" />
+          <End Role="Palabra" Type="Self.Palabra" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoPalabra">
+              <PropertyRef Name="ID_TipoPalabra" />
+            </Principal>
+            <Dependent Role="Palabra">
+              <PropertyRef Name="ID_TipoPalabra" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="IT_FairModelStoreContainer">
+          <EntitySet Name="Antonimo" EntityType="Self.Antonimo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Ejemplo" EntityType="Self.Ejemplo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Palabra" EntityType="Self.Palabra" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sinonimo" EntityType="Self.Sinonimo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TipoPalabra" EntityType="Self.TipoPalabra" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_TipoPalabra" Association="Self.FK_TipoPalabra">
+            <End Role="TipoPalabra" EntitySet="TipoPalabra" />
+            <End Role="Palabra" EntitySet="Palabra" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="IT_FairModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Antonimo">
+          <Key>
+            <PropertyRef Name="ID_Antonimo" />
+          </Key>
+          <Property Name="ID_Antonimo" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ejemplo">
+          <Key>
+            <PropertyRef Name="ID_Ejemplo" />
+          </Key>
+          <Property Name="ID_Ejemplo" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Palabra">
+          <Key>
+            <PropertyRef Name="ID_Palabra" />
+          </Key>
+          <Property Name="ID_Palabra" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Traduccion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ID_TipoPalabra" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="TipoPalabra" Relationship="Self.FK_TipoPalabra" FromRole="Palabra" ToRole="TipoPalabra" />
+        </EntityType>
+        <EntityType Name="Sinonimo">
+          <Key>
+            <PropertyRef Name="ID_Sinonimo" />
+          </Key>
+          <Property Name="ID_Sinonimo" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TipoPalabra">
+          <Key>
+            <PropertyRef Name="ID_TipoPalabra" />
+          </Key>
+          <Property Name="ID_TipoPalabra" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Palabra" Relationship="Self.FK_TipoPalabra" FromRole="TipoPalabra" ToRole="Palabra" />
+        </EntityType>
+        <Association Name="FK_TipoPalabra">
+          <End Role="TipoPalabra" Type="Self.TipoPalabra" Multiplicity="1" />
+          <End Role="Palabra" Type="Self.Palabra" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoPalabra">
+              <PropertyRef Name="ID_TipoPalabra" />
+            </Principal>
+            <Dependent Role="Palabra">
+              <PropertyRef Name="ID_TipoPalabra" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="IT_FairEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Antonimo" EntityType="Self.Antonimo" />
+          <EntitySet Name="Ejemplo" EntityType="Self.Ejemplo" />
+          <EntitySet Name="Palabra" EntityType="Self.Palabra" />
+          <EntitySet Name="Sinonimo" EntityType="Self.Sinonimo" />
+          <EntitySet Name="TipoPalabra" EntityType="Self.TipoPalabra" />
+          <AssociationSet Name="FK_TipoPalabra" Association="Self.FK_TipoPalabra">
+            <End Role="TipoPalabra" EntitySet="TipoPalabra" />
+            <End Role="Palabra" EntitySet="Palabra" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="IT_FairModelStoreContainer" CdmEntityContainer="IT_FairEntities">
+          <EntitySetMapping Name="Antonimo">
+            <EntityTypeMapping TypeName="IT_FairModel.Antonimo">
+              <MappingFragment StoreEntitySet="Antonimo">
+                <ScalarProperty Name="ID_Antonimo" ColumnName="ID_Antonimo" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ejemplo">
+            <EntityTypeMapping TypeName="IT_FairModel.Ejemplo">
+              <MappingFragment StoreEntitySet="Ejemplo">
+                <ScalarProperty Name="ID_Ejemplo" ColumnName="ID_Ejemplo" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Palabra">
+            <EntityTypeMapping TypeName="IT_FairModel.Palabra">
+              <MappingFragment StoreEntitySet="Palabra">
+                <ScalarProperty Name="ID_Palabra" ColumnName="ID_Palabra" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Traduccion" ColumnName="Traduccion" />
+                <ScalarProperty Name="ID_TipoPalabra" ColumnName="ID_TipoPalabra" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sinonimo">
+            <EntityTypeMapping TypeName="IT_FairModel.Sinonimo">
+              <MappingFragment StoreEntitySet="Sinonimo">
+                <ScalarProperty Name="ID_Sinonimo" ColumnName="ID_Sinonimo" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TipoPalabra">
+            <EntityTypeMapping TypeName="IT_FairModel.TipoPalabra">
+              <MappingFragment StoreEntitySet="TipoPalabra">
+                <ScalarProperty Name="ID_TipoPalabra" ColumnName="ID_TipoPalabra" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
