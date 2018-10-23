@@ -1,0 +1,170 @@
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\Diseño.csprojAssemblyReference.cache
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\App.g.cs
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\Diseño_MarkupCompile.cache
+C:\Users\cetecom\source\repos\Diseño\Diseño\bin\Debug\Diseño.exe.config
+C:\Users\cetecom\source\repos\Diseño\Diseño\bin\Debug\Diseño.exe
+C:\Users\cetecom\source\repos\Diseño\Diseño\bin\Debug\Diseño.pdb
+C:\Users\cetecom\source\repos\Diseño\Diseño\bin\Debug\ControlzEx.dll
+C:\Users\cetecom\source\repos\Diseño\Diseño\bin\Debug\MahApps.Metro.dll
+C:\Users\cetecom\source\repos\Diseño\Diseño\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\cetecom\source\repos\Diseño\Diseño\bin\Debug\ControlzEx.pdb
+C:\Users\cetecom\source\repos\Diseño\Diseño\bin\Debug\MahApps.Metro.pdb
+C:\Users\cetecom\source\repos\Diseño\Diseño\bin\Debug\MahApps.Metro.xml
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\MainWindow.g.cs
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\Diseño_MarkupCompile.lref
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\App.baml
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\MainWindow.baml
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\Diseño.g.resources
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\Diseño.Properties.Resources.resources
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\Diseño.csproj.GenerateResource.cache
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\Diseño.csproj.CoreCompileInputs.cache
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\Diseño.csproj.CopyComplete
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\Diseño.exe
+C:\Users\cetecom\source\repos\Diseño\Diseño\obj\Debug\Diseño.pdb
+C:\Users\cetecom\Downloads\Diseño\Diseño\bin\Debug\Diseño.exe.config
+C:\Users\cetecom\Downloads\Diseño\Diseño\bin\Debug\Diseño.exe
+C:\Users\cetecom\Downloads\Diseño\Diseño\bin\Debug\Diseño.pdb
+C:\Users\cetecom\Downloads\Diseño\Diseño\bin\Debug\ControlzEx.dll
+C:\Users\cetecom\Downloads\Diseño\Diseño\bin\Debug\MahApps.Metro.dll
+C:\Users\cetecom\Downloads\Diseño\Diseño\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\cetecom\Downloads\Diseño\Diseño\bin\Debug\ControlzEx.pdb
+C:\Users\cetecom\Downloads\Diseño\Diseño\bin\Debug\MahApps.Metro.pdb
+C:\Users\cetecom\Downloads\Diseño\Diseño\bin\Debug\MahApps.Metro.xml
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\Diseño.csprojAssemblyReference.cache
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\MainWindow.g.cs
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\App.g.cs
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\Diseño_MarkupCompile.cache
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\Diseño_MarkupCompile.lref
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\App.baml
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\MainWindow.baml
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\Diseño.g.resources
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\Diseño.Properties.Resources.resources
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\Diseño.csproj.GenerateResource.cache
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\Diseño.csproj.CoreCompileInputs.cache
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\Diseño.csproj.CopyComplete
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\Diseño.exe
+C:\Users\cetecom\Downloads\Diseño\Diseño\obj\Debug\Diseño.pdb
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\Diseño.exe.config
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\Diseño.exe
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\Diseño.pdb
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\ControlzEx.dll
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\MahApps.Metro.dll
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\System.Windows.Interactivity.dll
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\ControlzEx.pdb
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\MahApps.Metro.pdb
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\MahApps.Metro.xml
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\MainWindow.g.cs
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\App.g.cs
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño_MarkupCompile.cache
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño_MarkupCompile.lref
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\App.baml
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\MainWindow.baml
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.g.resources
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.Properties.Resources.resources
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.csproj.GenerateResource.cache
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.csproj.CopyComplete
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.exe
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.pdb
+E:\Visual Studio\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.csprojAssemblyReference.cache
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\Diseño.exe.config
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\Diseño.exe
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\Diseño.pdb
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\ControlzEx.dll
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\MahApps.Metro.dll
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\ControlzEx.pdb
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\MahApps.Metro.pdb
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\bin\Debug\MahApps.Metro.xml
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\MainWindow.g.cs
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\VentanaLogin.g.cs
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\App.g.cs
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño_MarkupCompile.cache
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño_MarkupCompile.lref
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\App.baml
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\MainWindow.baml
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\VentanaLogin.baml
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.g.resources
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.Properties.Resources.resources
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.csproj.GenerateResource.cache
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.csproj.CoreCompileInputs.cache
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.csproj.CopyComplete
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.exe
+C:\Users\cetecom\Desktop\Diseño Crucerinc Arquitectura\Diseño\obj\Debug\Diseño.pdb
+C:\Users\cetecom\Desktop\It Fair\Diseño\bin\Debug\Diseño.exe.config
+C:\Users\cetecom\Desktop\It Fair\Diseño\bin\Debug\Diseño.exe
+C:\Users\cetecom\Desktop\It Fair\Diseño\bin\Debug\Diseño.pdb
+C:\Users\cetecom\Desktop\It Fair\Diseño\bin\Debug\ControlzEx.dll
+C:\Users\cetecom\Desktop\It Fair\Diseño\bin\Debug\MahApps.Metro.dll
+C:\Users\cetecom\Desktop\It Fair\Diseño\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\cetecom\Desktop\It Fair\Diseño\bin\Debug\ControlzEx.pdb
+C:\Users\cetecom\Desktop\It Fair\Diseño\bin\Debug\MahApps.Metro.pdb
+C:\Users\cetecom\Desktop\It Fair\Diseño\bin\Debug\MahApps.Metro.xml
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\Diseño.csprojAssemblyReference.cache
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\MainWindow.g.cs
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\VentanaLogin.g.cs
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\App.g.cs
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\Diseño_MarkupCompile.cache
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\Diseño_MarkupCompile.lref
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\App.baml
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\MainWindow.baml
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\VentanaLogin.baml
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\Diseño.g.resources
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\Diseño.Properties.Resources.resources
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\Diseño.csproj.GenerateResource.cache
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\Diseño.csproj.CoreCompileInputs.cache
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\Diseño.csproj.CopyComplete
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\Diseño.exe
+C:\Users\cetecom\Desktop\It Fair\Diseño\obj\Debug\Diseño.pdb
+E:\Visual Studio\It Fair\Diseño\obj\Debug\MainWindow.g.cs
+E:\Visual Studio\It Fair\Diseño\obj\Debug\VentanaLogin.g.cs
+E:\Visual Studio\It Fair\Diseño\obj\Debug\App.g.cs
+E:\Visual Studio\It Fair\Diseño\obj\Debug\Diseño_MarkupCompile.cache
+E:\Visual Studio\It Fair\Diseño\obj\Debug\Diseño_MarkupCompile.lref
+E:\Visual Studio\It Fair\Diseño\obj\Debug\App.baml
+E:\Visual Studio\It Fair\Diseño\obj\Debug\MainWindow.baml
+E:\Visual Studio\It Fair\Diseño\obj\Debug\VentanaLogin.baml
+E:\Visual Studio\It Fair\Diseño\obj\Debug\Diseño.g.resources
+E:\Visual Studio\It Fair\Diseño\obj\Debug\Diseño.pdb
+E:\Visual Studio\It Fair\Diseño\bin\Debug\Diseño.exe.config
+E:\Visual Studio\It Fair\Diseño\bin\Debug\Diseño.exe
+E:\Visual Studio\It Fair\Diseño\bin\Debug\Diseño.pdb
+E:\Visual Studio\It Fair\Diseño\bin\Debug\ControlzEx.dll
+E:\Visual Studio\It Fair\Diseño\bin\Debug\MahApps.Metro.dll
+E:\Visual Studio\It Fair\Diseño\bin\Debug\System.Windows.Interactivity.dll
+E:\Visual Studio\It Fair\Diseño\bin\Debug\ControlzEx.pdb
+E:\Visual Studio\It Fair\Diseño\bin\Debug\MahApps.Metro.pdb
+E:\Visual Studio\It Fair\Diseño\bin\Debug\MahApps.Metro.xml
+E:\Visual Studio\It Fair\Diseño\obj\Debug\Diseño.Properties.Resources.resources
+E:\Visual Studio\It Fair\Diseño\obj\Debug\Diseño.csproj.GenerateResource.Cache
+E:\Visual Studio\It Fair\Diseño\obj\Debug\Diseño.exe
+E:\Visual Studio\It Fair\Diseño\obj\Debug\Diseño.csprojAssemblyReference.cache
+E:\Visual Studio\It Fair\Diseño\obj\Debug\Diseño.csproj.CoreCompileInputs.cache
+E:\Visual Studio\It Fair\Diseño\obj\Debug\Diseño.csproj.CopyComplete
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\Diseño.exe.config
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\Diseño.exe
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\Diseño.pdb
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\ControlzEx.dll
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\MahApps.Metro.dll
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\Negocio.dll
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\Negocio.pdb
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\ControlzEx.pdb
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\MahApps.Metro.pdb
+C:\Users\cetecom\Downloads\It Fair\Diseño\bin\Debug\MahApps.Metro.xml
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.csprojAssemblyReference.cache
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\MainWindow.g.cs
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\VentanaLogin.g.cs
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\App.g.cs
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño_MarkupCompile.cache
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño_MarkupCompile.lref
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\App.baml
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\MainWindow.baml
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\VentanaLogin.baml
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.g.resources
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.Properties.Resources.resources
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.csproj.GenerateResource.cache
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.csproj.CoreCompileInputs.cache
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.csproj.CopyComplete
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.exe
+C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.pdb
