@@ -4,3 +4,9 @@ C:\Users\cetecom\Downloads\It Fair\Negocio\obj\Debug\Negocio.csprojAssemblyRefer
 C:\Users\cetecom\Downloads\It Fair\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 C:\Users\cetecom\Downloads\It Fair\Negocio\obj\Debug\Negocio.dll
 C:\Users\cetecom\Downloads\It Fair\Negocio\obj\Debug\Negocio.pdb
+E:\Visual Studio\It Fair\Negocio\bin\Debug\Negocio.dll
+E:\Visual Studio\It Fair\Negocio\bin\Debug\Negocio.pdb
+E:\Visual Studio\It Fair\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+E:\Visual Studio\It Fair\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+E:\Visual Studio\It Fair\Negocio\obj\Debug\Negocio.dll
+E:\Visual Studio\It Fair\Negocio\obj\Debug\Negocio.pdb

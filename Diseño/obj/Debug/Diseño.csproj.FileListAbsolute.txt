@@ -168,3 +168,5 @@ C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.csproj.CoreCompileI
 C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.csproj.CopyComplete
 C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.exe
 C:\Users\cetecom\Downloads\It Fair\Diseño\obj\Debug\Diseño.pdb
+E:\Visual Studio\It Fair\Diseño\bin\Debug\Negocio.dll
+E:\Visual Studio\It Fair\Diseño\bin\Debug\Negocio.pdb

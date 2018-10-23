@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:Diseño"
         xmlns:controlzex="urn:controlzex" x:Class="Diseño.MainWindow"
         mc:Ignorable="d"
-        Title="Teacher" Height="450" Width="800">
+        Title="Teacher" Height="450" Width="800" WindowStartupLocation="CenterScreen">
 
     <Grid>
         <Controls:MetroAnimatedTabControl HorizontalAlignment="Left" Height="163" Margin="24,103,0,0" VerticalAlignment="Top" Width="144"/>
@@ -37,22 +37,25 @@
 
                     </Border>
                     <Rectangle Grid.Column="3" Fill="#FFEDEDF5" HorizontalAlignment="Left" Height="284.397" Margin="61.33,10,0,0" Grid.RowSpan="2" Stroke="#FFEDEDF5" VerticalAlignment="Top" Width="528.754" Grid.ColumnSpan="3"/>
-                    <Label Content="Image Definition:" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="77.195,78.05,0,0" VerticalAlignment="Top" Width="111" BorderBrush="#FFF1F1F1" Background="#FFEDEDF5" RenderTransformOrigin="0.532,-0.041" Grid.RowSpan="2"/>
-                    <Label Content="Image Name:" Grid.Column="3" HorizontalAlignment="Left" Margin="77.195,28.165,0,40.95" Width="87" BorderBrush="#FFF1F1F1" Background="#FFEDEDF5"/>
-                    <TextBox x:Name="TXTName" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="193.195,28.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" TextChanged="TextBox"/>
-                    <Label Content="Synonym:" Grid.Column="3" HorizontalAlignment="Left" Height="34" Margin="80,39,0,0" Grid.Row="1" VerticalAlignment="Top" Width="101"/>
-                    <TextBox x:Name="TXTmeaning_Copy" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="193.195,91.449,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" TextChanged="TextBox" Grid.Row="1" RenderTransformOrigin="0.471,0.154"/>
-                    <Label Content="Antonym:" Grid.Column="3" HorizontalAlignment="Left" Height="34" Margin="80,85,0,0" Grid.Row="1" VerticalAlignment="Top" Width="111"/>
+                    <Label x:Name="LBDEFINITION" Content="Image Definition:" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="77.195,78.05,0,0" VerticalAlignment="Top" Width="111" BorderBrush="#FFF1F1F1" Background="#FFEDEDF5" RenderTransformOrigin="0.532,-0.041" Grid.RowSpan="2"/>
+                    <Label x:Name="LBNAME" Content="Image Name:" Grid.Column="3" HorizontalAlignment="Left" Margin="77.195,28.165,0,40.95" Width="87" BorderBrush="#FFF1F1F1" Background="#FFEDEDF5"/>
+                    <TextBox x:Name="TXTNAME" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="193.195,28.165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" TextChanged="TextBox"/>
+                    <Label x:Name="LBSYNONYM" Content="Synonym:" Grid.Column="3" HorizontalAlignment="Left" Height="34" Margin="80,36,0,0" Grid.Row="1" VerticalAlignment="Top" Width="101"/>
+                    <TextBox x:Name="TXTANTONYM" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="193.195,91.449,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" TextChanged="TextBox" Grid.Row="1" RenderTransformOrigin="0.471,0.154"/>
+                    <Label x:Name="LBANTONYM" Content="Antonym:" Grid.Column="3" HorizontalAlignment="Left" Height="34" Margin="80,85,0,0" Grid.Row="1" VerticalAlignment="Top" Width="111"/>
                     <ComboBox x:Name="CbTipo" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="375.528,28.165,0,0" VerticalAlignment="Top" Width="76.667"/>
-                    <TextBox x:Name="TXTmeaning_Copy2" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="193.195,38.687,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" TextChanged="TextBox" Grid.Row="1"/>
-                    <Label Content="Examples:" Grid.Column="3" HorizontalAlignment="Left" Height="34" Margin="375.528,70.935,0,0" VerticalAlignment="Top" Width="111" Grid.RowSpan="2"/>
-                    <TextBox x:Name="TXTmeaning_Copy3" Grid.Column="3" HorizontalAlignment="Left" Height="101.838" Margin="375.528,13.935,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" TextChanged="TextBox" Grid.Row="1" RenderTransformOrigin="0.471,0.154" Grid.ColumnSpan="3"/>
-                    <TextBox x:Name="TXTmeaning_Copy4" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="193.195,78.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" TextChanged="TextBox" Grid.RowSpan="2"/>
-                    <Controls:Tile Content="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;SAVE" HorizontalAlignment="Left" Height="64" Margin="496,125,0,0" VerticalAlignment="Top" Width="70" FontSize="9" RenderTransformOrigin="0.735,0.627" Grid.Row="1" ToolTip="Save Content" Click="Tile_SaveAsync" Grid.ColumnSpan="3" Grid.Column="3">
+                    <TextBox x:Name="TXTSYNONYM" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="193.195,38.687,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" TextChanged="TextBox" Grid.Row="1"/>
+                    <Label x:Name="TXTEXAMPLES" Content="Examples:" Grid.Column="3" HorizontalAlignment="Left" Height="34" Margin="375.528,70.935,0,0" VerticalAlignment="Top" Width="111" Grid.RowSpan="2"/>
+                    <TextBox x:Name="TXTEXAMPLES1" Grid.Column="3" HorizontalAlignment="Left" Height="101.838" Margin="375.528,13.935,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" TextChanged="TextBox" Grid.Row="1" RenderTransformOrigin="0.471,0.154" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="TXTDEFINITION" Grid.Column="3" HorizontalAlignment="Left" Height="26.885" Margin="193.195,78.05,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" TextChanged="TextBox" Grid.RowSpan="2"/>
+                    <Controls:Tile x:Name="TILE_SAVE" Content="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;SAVE" HorizontalAlignment="Left" Height="64" Margin="496,125,0,0" VerticalAlignment="Top" Width="70" FontSize="9" RenderTransformOrigin="0.735,0.627" Grid.Row="1" ToolTip="Save Content" Click="Tile_SaveAsync" Grid.ColumnSpan="3" Grid.Column="3">
                         <Controls:Tile.Background>
                             <ImageBrush ImageSource="Save-01.png"/>
                         </Controls:Tile.Background>
                     </Controls:Tile>
+                    <TextBox x:Name="TXTPath" HorizontalAlignment="Left" Height="27" Margin="21,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" TextChanged="TextBox" Grid.ColumnSpan="4"/>
+                    <Label Content="Traduction Name:" Grid.Column="3" HorizontalAlignment="Left" Height="34" Margin="77,139,0,0" Grid.Row="1" VerticalAlignment="Top" Width="111"/>
+                    <TextBox x:Name="TXTTRADUCTION" Grid.Column="3" HorizontalAlignment="Left" Height="27" Margin="193,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" TextChanged="TextBox" Grid.Row="1" RenderTransformOrigin="0.471,0.154"/>
 
                 </Grid>
             </TabItem>

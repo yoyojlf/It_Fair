@@ -46,13 +46,14 @@ namespace Diseño
             openFileDialog.Filter = "Image files (*.png;*.jpeg)|*.png;*.jpeg|All files (*.*)|*.*";
             openFileDialog.InitialDirectory = "C:\\";
 
+
             if (openFileDialog.ShowDialog() == true)
 
             {
                 b.BeginInit();
 
+                TXTPath.Text = openFileDialog.FileName;
                 b.UriSource = new Uri(openFileDialog.FileName);
-
                 b.EndInit();
                 Images.Stretch = Stretch.Fill;
                 Images.Source = b;
@@ -90,7 +91,7 @@ namespace Diseño
         private void TabItem_ContextMenuOpening(object sender, ContextMenuEventArgs e)
         {
 
-            TXTName.Text = string.Empty;
+            
         }
     }
 }
