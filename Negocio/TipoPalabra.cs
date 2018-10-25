@@ -23,6 +23,7 @@ namespace Negocio
             Descripcion = string.Empty;
         }
 
+        #region Metodos
         public bool Read()
         {
             Datos.IT_FairEntities Contexto = new Datos.IT_FairEntities();
@@ -45,7 +46,40 @@ namespace Negocio
             }
         }
 
+        //read all
+        public List<TipoPalabra> ReadAll()
+        {
+            Datos.IT_FairEntities Contexto = new Datos.IT_FairEntities();
+            try
+            {
+                List<Datos.TipoPalabra> ListaTipoBD = Contexto.TipoPalabra.ToList<Datos.TipoPalabra>();
+                //Lista salida
+                List<TipoPalabra> ListaTipoBB = GenerarListaSexos(ListaTipoBD);
 
-        
+                return ListaTipoBB;
+            }
+            catch (Exception ex)
+            {
+                return new List<TipoPalabra>();
+            }
+        }
+
+        private List<TipoPalabra> GenerarListaSexos(List<Datos.TipoPalabra> listaTipoBD)
+        {
+            List<TipoPalabra> ListaBB = new List<TipoPalabra>();
+
+            foreach (Datos.TipoPalabra Datos in listaTipoBD)
+            {
+                TipoPalabra Tipo = new TipoPalabra();
+                CommonBC.Syncronize(Datos, Tipo);
+                ListaBB.Add(Tipo);
+            }
+
+            return ListaBB;
+        }
+
+        #endregion
+
+
     }
 }
