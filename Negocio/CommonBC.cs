@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
+using System.Reflection;
 
 namespace Negocio
 {
     public class CommonBC
     {
-
         /// <summary>
         /// Sincroniza los valores de propiedades comunes entre 2 objetos 
         /// </summary>
@@ -39,6 +40,6 @@ namespace Negocio
                 catch {/* Los valores que no se pueden asignar son ignorados */}
             }
         }
-
     }
+
 }

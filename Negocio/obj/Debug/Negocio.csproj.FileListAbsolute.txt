@@ -1,12 +1,9 @@
-C:\Users\cetecom\Downloads\It Fair\Negocio\bin\Debug\Negocio.dll
-C:\Users\cetecom\Downloads\It Fair\Negocio\bin\Debug\Negocio.pdb
-C:\Users\cetecom\Downloads\It Fair\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
-C:\Users\cetecom\Downloads\It Fair\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\cetecom\Downloads\It Fair\Negocio\obj\Debug\Negocio.dll
-C:\Users\cetecom\Downloads\It Fair\Negocio\obj\Debug\Negocio.pdb
-E:\Visual Studio\It Fair\Negocio\bin\Debug\Negocio.dll
-E:\Visual Studio\It Fair\Negocio\bin\Debug\Negocio.pdb
-E:\Visual Studio\It Fair\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
-E:\Visual Studio\It Fair\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-E:\Visual Studio\It Fair\Negocio\obj\Debug\Negocio.dll
-E:\Visual Studio\It Fair\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Felipe\Desktop\IT_Fair\Negocio\bin\Debug\Negocio.dll
+C:\Users\Felipe\Desktop\IT_Fair\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Felipe\Desktop\IT_Fair\Negocio\bin\Debug\Datos.dll
+C:\Users\Felipe\Desktop\IT_Fair\Negocio\bin\Debug\Datos.pdb
+C:\Users\Felipe\Desktop\IT_Fair\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Felipe\Desktop\IT_Fair\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Desktop\IT_Fair\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Felipe\Desktop\IT_Fair\Negocio\obj\Debug\Negocio.dll
+C:\Users\Felipe\Desktop\IT_Fair\Negocio\obj\Debug\Negocio.pdb

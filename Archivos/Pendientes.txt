@@ -1,0 +1,1 @@
+Agregar los metodos faltantes de read den la clase TipoPalabra ( lo que estan despues de readall en la clase Estadocivil del belife)
